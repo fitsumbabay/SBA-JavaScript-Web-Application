@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Interaction</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>API Interaction from jsonplaceholder and Cat API</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="searchInput" placeholder="Search posts..." />
+            <button id="searchButton">Search</button>
+        </section>
+        <button id="fetchCatImagesButton">Fetch Cat Images</button>
+        <div id="postContainer"></div>
+        <div id="catContainer"></div>
+        <section id="gallery">
+            <!-- <h2>Cat Gallery</h2>
+            <button id="updateCatButton">Update Cat Images</button>
+            <div id="gallery"></div> -->
+        </section>
+   
+        <section>
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </section>
+        <section>
+            <h2>Create Post</h2>
+            <form id="createPostForm">
+                <input type="text" id="createTitle" placeholder="Title" required />
+                <textarea id="createBody" placeholder="Body" required></textarea>
+                <button type="submit">Create</button>
+            </form>
+        </section>
+        <section>
+            <h2>Update Post</h2>
+            <form id="updatePostForm">
+                <input type="number" id="updateId" placeholder="Post ID" required />
+                <input type="text" id="updateTitle" placeholder="Title" />
+                <textarea id="updateBody" placeholder="Body"></textarea>
+                <button type="submit">Update</button>
+            </form>
+        </section>
+    </main>
+    <script src="./module/main.js" type="module"></script>
+</body>
+
+</html>

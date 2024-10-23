@@ -1,0 +1,142 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(193, 222, 222);
+}
+
+header {
+    background-color: #23354a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc(33% - 2rem);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(84, 84, 218);
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+}
+
+ */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(193, 222, 222);
+}
+
+header {
+    background-color: #23354a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+ img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    width: calc(33% - 2rem);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(84, 84, 218);
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
